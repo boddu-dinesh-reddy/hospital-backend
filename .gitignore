@@ -1,18 +1,36 @@
-# Dependency directories
-node_modules/
+# Node.js dependencies
+/node_modules
+
+# Environment variables
+.env
 
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment files
-.env
-.env.local
+# OS files
+.DS_Store
 
-# Build output
-dist/
-build/
+# Debug
+*.tsbuildinfo
+*.cache
 
-# VS Code settings
+# Runtime data
+pids
+*.pid
+*.seed
+
+# IDE files
 .vscode/
+.idea/
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# Others
+dist
+coverage
